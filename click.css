@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom right, #8e44ad, #3498db);
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    color: #fff;
+}
+
+button {
+    background-color: #fff;
+    color: #8e44ad;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+    display: block;
+    margin: 0 auto; /* Center the button horizontally */
+}
+
+button:hover {
+    background-color: #3498db;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    /* Adjust styles for smaller screens */
+    .container {
+        padding: 10px;
+    }
+}
